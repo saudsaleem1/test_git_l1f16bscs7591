@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="a website for medicine related matrial">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="saud">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>home page</title>
+        
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600i,700,800,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" /> 
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/assi27.css" />
+         <link rel="stylesheet" type="text/css" media="(max-width:925px)" href="../css/assi27.1.css" >
+        <link rel="stylesheet" type="text/css" media="(max-width:750px)" href="../css/assi27.2.css" /> 
+        <link rel="stylesheet" type="text/css" media="(max-width:350px)" href="../css/assi27.3.css" />   
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUaSURBVHhe7ZxLyHVjGIY/52MOISU5JKVEpJBDGZABZWCgKBOn8A+Uc2HAgBgwMKBMDJzKgKJEouQwUEpOiYRITjnlfLqvnfv/lvW9e+937Xet9a2913PV1f/v3V7Petfzr2+t917v/r+1IAiCIAiCoCtOlFfIXSavgkZskX/If+Tr8kAZZLCDvF/SuKqfyRNkMIN95QvSTftUPlh5/Ys8XwYJjpQfSDfrNXmAhMvk75L3/5a3y21l8B9nyx+km/eQ3FlWOU1+Lf2ZJ+TucvRcJ/+UNOUveYPcRqY4TL4l3cQ35SFylOwkq9e3H+U5ch57yKekt/tSniJHxf7yFekmfCSPkrlsJ++S3v43eZEcBcfKT6QP/iW5n1yEC+Wv0rXuljR3ZTlX/iR9wA/IHWUJJ8kvpGs+I/eUKwU3hVskUxAOkpvGVbItDpJvSDfxXXm4XAl2lY9JH9x38kzZNrvJx6X38608XS415FdyrA/qfXmE7ArO9Fulz3Sy9JVyKSG3fi7dvOfk3rIPzpM/S+/7PknGXhoukORWH8C9cns5D+Zz18jrZ3ipzLlJHCfJ0h4DGXsfOWjIp+RUD5r8So7NgcdX/tGb54cyp4lkaTK1tyNrk7kHCbn0SenBklvJr7lUf9xzvETmQKYmW3u77+VZclAcKsmlHiR5ldzaBG/LGTyL3M9V4eZCxiZrsy3TqGvlIDhVfiV9YORU8mpTchuT+7kUZG0yt2uQxcnkm8bFkhzqAZFPF41SrtFlA4HMTfZ2nZcl2bxXaNI90oMgj5JLS3CtrhsIZG8yuGt9LI+RvbCXJG965+RQ8mgprtdHA4EMThZ3PTI6Wb1TyJfvSe+U/EkOzYVUwOKQt0857+46627N5YQJe5Mxkcn9QJdp1M1y2gPdIs6Q5EsPltxJ/syFSfK8eV7O/C5nvvisbALZnIzu7R+Vra5FV9doGTx5s+m/EtMGD/COhJx5uY+h+MfgTKnXeFFSnzOxKWR0srrH2MpadH2NlnxJzlwE5mGu0xWl+yCrcwlwjaK16PoaLd4pF2UZGghkdtfAhdai62u0tuTOtywNBNewXLY49qy16NQarf8+tgY+LxutRV8tq2u0N0puFi4wtgZyvGT6tyvvkfkPlhs4WvpD9TVavz/GBgLZ/mnp91mi2ABTCDrNggzNrFIvuAjL3EAgvvKay1vuM86tpAo2hXme66RkypCzfkHKYKpRfYhRl1oluE7J8f6PNgpyhpM0XCsld7uT5Syq87SU1GDiX4JrDaqBQBNZ06gnCPQ+bpKz8Jn3qqzXIJ208T2Zto53K60XTJC7jyGNJZshDXpIY8lmSIMe0liyGdKghzSWbPoYtG8OPMBILahbj4UbRle0frytF0zAQ1DvZ55MVdpYRpiG97NUDWSCTBNnTZAxd8Jdgve1VA0cEtHAQqKBhUQDC4kGFtJZA8dmNLDQ1huYeoS0inbWwLgGLkg0sJBUwUcka6b1rz4Qs1jVq8ctPsfnH568Woen1O9IFrTq343ZrH300kACPe/dNnm1jr/gw59VvGLGenMVHsG7fn09ZLP24c922sBpO/E3P/mzyrQlx+rB1dcz/H7f+0i9V0SqYJyBDUgV5DrD/xY/fvJqHV+fLp+8WodrDJ9PXZ+4NqWuT5u1j14auMpEAwspOl5+DKatQ8xbr1gVpx0vv8er/utYNvCNdIFwozRxJlxUuYulNh67TLjrN7QgCIIgCIIgCILeWFv7F4FeHpS1bqycAAAAAElFTkSuQmCC"  />
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script> 
+    <script src="js/respond.min.js"></script>
+    <![endif ]-->
+    </head>
+    <body>
+        <div class="fixed-top">
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                          
+                        <img src="data:image/png;base64,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" style="width:55px;height:55px;" class="navbar-brand">
+                      <a class="navbar-brand" href="#">MEDICAN</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Contact</a></li>
+                       
+                      </ul>
+                      <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search" name="search">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                              <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                       <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+
+                </div>
+
+        <div class="h_section ">
+            <section>
+                <h1>Pharmacy plus</h1>
+               
+                <a href="#" title="FIND OUT MORE LIKE THIS">Find Out More</a>
+            </section>
+        </div>
+        <div class="what">
+            <section>
+                <h2>Our company will tell which medicine is best for you!</h2>
+                <p>This is the place where you find best of best medicine <a href="#" title="takes you to unsplash.com">Unsplash</a>!</p>
+                <a href="#" title="What we offering page">What We Offer</a>
+            </section>
+        </div>
+        <div class="services">
+            <p>SERVICES</p>
+            <h2>What We Offer</h2>
+            <section class="services_table">
+                <div class="services_row">
+
+                        <div class="container">
+                                <div class="row">
+
+
+                    <div class="cel1 row_cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Comparison</h3>
+                        <p>Comparison between  different medicine!</p>
+                    </div>
+                    <div class="cel2 row_cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Resdesigned</h3>
+                        <p>Freshly Resdesigned for full stack batch.</p>
+                    </div>
+                    <div class="cel3 row_cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h3>Favorited</h3>
+                        <p>Web Design is Awesome Literally!</p>
+                    </div>
+                    <div class="cel4 row_cell col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <i class="fab fa-app-store-ios"></i>
+                        <h3>Question</h3>
+                        <p>Ask what ever you have query...</p>
+                    </div>
+
+                                </div>
+                        </div>
+
+                </div>
+            </section>
+        </div>
+        <div class="welcome">
+            <section>
+                <h1>Welcome to medicine <br> Arena</h1>
+                <a href="#">Learn More</a>  
+            </section>
+        </div>
+        <div class="recent_projects">
+            <p>PORTFOLIO</p>
+            <h2>Recent Projects</h2>
+
+            <div class="container fluid">
+                <div class="stationary col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <h3>Dr Watson</h3>
+                    <p>A yellow pencil with envelopes on a clean, blue back drop!</p>
+                </div>
+                <div class="ice_cream col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <h3>Medicine Plus</h3>
+                    <p>A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                </div>
+                <div class="strawberries col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <h3>pharma sons</h3>
+                    <p>Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                </div>
+                <div class="workspace col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <h3>WORKSPACE</h3>
+                    <p>A yellow workspace with some scissors, pencils, and other objects,</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="buttons">
+            <section>
+                <h2>The buttons below are impossible to resist...</h2>
+                <div class="link_wrapper">
+                    <a href="#" title="Click here">Click Me!</a>
+                    <a href="#" title="take a look at this button">Look At Me!</a>
+                </div>
+            </section>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.905819383169!2d72.68094501534905!3d32.098830981182054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3921764a532dcdf1%3A0x789e851851fd9cad!2zMzLCsDA1JzU1LjgiTiA3MsKwNDAnNTkuMyJF!5e0!3m2!1sen!2s!4v1530090852291" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-github"></i>
+
+            <p>Copyright © RBD 2018</p>
+        </div>
+       
+              <footer>
+                <hr>
+                <hr>
+                <table>
+                  <tr>
+                    <td><h1>Medican</h1></td>
+                   
+                  </tr>
+                </table>
+              
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                  <p class="text-center">Copyright &copy; 2018 - Developed and Powered by <strong>WAD Students.</strong></p>
+              
+                <p>Contact information: <a href="mailto:someone@example.com">
+                someone@example.com</a>.</p>
+              </footer>
+    </body>
+</html>

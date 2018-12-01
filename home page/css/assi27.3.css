@@ -1,0 +1,41 @@
+.h_section{
+    height: 400px;
+}
+.h_section h1 {
+    font-size: 25px;
+    margin-left: 113px;
+}
+.h_section h4{
+    font-size: 10px;
+    margin-left: 113px;
+}
+.h_section a{
+    margin-left: 113px;
+}
+
+
+
+
+ .ice_cream h3{
+    /* position: relative;
+    height: 400px; 
+    background-image: url('../images/portfolio-1.jpg');
+    background-size: cover;
+    color: #fff; */
+
+
+    margin-left: 20px;
+}
+.ice_cream p{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.buttons a:first-of-type {
+    /* float: left;
+    color: #343a40; */
+    /* margin-right: -16px; */
+    margin-bottom: 10px;
+    margin-left: -77px;
+    /* background-color: white; */
+}
